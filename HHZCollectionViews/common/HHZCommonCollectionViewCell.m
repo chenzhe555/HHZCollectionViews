@@ -8,13 +8,12 @@
 
 #import "HHZCommonCollectionViewCell.h"
 #import "HHZCollectionViewCellModel1.h"
-#import "HHZCircleAlphaView.h"
+#import "HHZCircleTool.h"
 
 @interface HHZCommonCollectionViewCell ()
 @property (nonatomic, strong) UIImageView * imgView;
 @property (nonatomic, strong) UILabel * label;
 @property (nonatomic, strong) HHZCollectionViewCellModel1 * model;
-@property (nonatomic, strong) HHZCircleAlphaView * circleView;
 @end
 
 @implementation HHZCommonCollectionViewCell
@@ -32,14 +31,8 @@
     {
         _imgView = [[UIImageView alloc] init];
         _imgView.frame = CGRectMake(self.bounds.size.width/4.0, self.bounds.size.height/4.0, self.bounds.size.width/2.0, self.bounds.size.height/2.0);
-        _imgView.layer.borderColor = [UIColor clearColor].CGColor;
-        
-        _circleView = [[HHZCircleAlphaView alloc] init];
-        [_circleView changeAroundColor:[UIColor whiteColor]];
-        _circleView.frame = _imgView.frame;
-        
+
         [self addSubview:_imgView];
-        [self addSubview:_circleView];
     }
     return _imgView;
 }
@@ -83,8 +76,9 @@
     }
     else
     {
-        
-        self.imgView.image = [UIImage imageNamed:self.model.image];
+        UIImage * img = [UIImage imageNamed:self.model.image];
+        img = [HHZCircleTool getImageRadius:img.size.width/2 andImage:img];
+        self.imgView.image = img;
     }
 }
 

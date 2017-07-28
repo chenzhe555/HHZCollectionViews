@@ -98,10 +98,14 @@ Pod::Spec.new do |s|
       end
 
       one.subspec 'common' do |three|
+        three.dependency 'HHZCollectionViews/HHZCollectionViews/utils'
+
         three.source_files = 'HHZCollectionViews/common/*.{h,m}'
       end
 
       one.subspec 'chooseUnused' do |three|
+        three.dependency 'HHZCollectionViews/HHZCollectionViews/utils'
+
         three.source_files = 'HHZCollectionViews/chooseUnused/*.{h,m}'
       end
 

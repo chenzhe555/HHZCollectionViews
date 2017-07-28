@@ -21,6 +21,7 @@
 		6E322B7F1F2B0C4200FA16BB /* HHZBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B751F2B0C4200FA16BB /* HHZBaseCollectionView.m */; };
 		6E322B801F2B0C4200FA16BB /* HHZCircleAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B771F2B0C4200FA16BB /* HHZCircleAlphaView.m */; };
 		6E322B811F2B0C4200FA16BB /* HHZCollectionViewCellModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B791F2B0C4200FA16BB /* HHZCollectionViewCellModel1.m */; };
+		6E322B8E1F2B1BC000FA16BB /* HHZCircleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B8D1F2B1BC000FA16BB /* HHZCircleTool.m */; };
 		7B33B98F4B4AD07A38073F2C /* libPods-HHZCollectionViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7768B3AB3B793CBC3E81484C /* libPods-HHZCollectionViews.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		6E322B771F2B0C4200FA16BB /* HHZCircleAlphaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCircleAlphaView.m; sourceTree = "<group>"; };
 		6E322B781F2B0C4200FA16BB /* HHZCollectionViewCellModel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCollectionViewCellModel1.h; sourceTree = "<group>"; };
 		6E322B791F2B0C4200FA16BB /* HHZCollectionViewCellModel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCollectionViewCellModel1.m; sourceTree = "<group>"; };
+		6E322B8C1F2B1BC000FA16BB /* HHZCircleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCircleTool.h; sourceTree = "<group>"; };
+		6E322B8D1F2B1BC000FA16BB /* HHZCircleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCircleTool.m; sourceTree = "<group>"; };
 		7768B3AB3B793CBC3E81484C /* libPods-HHZCollectionViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZCollectionViews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1077F2FB258DFD3D48D7663 /* Pods-HHZCollectionViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZCollectionViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZCollectionViews/Pods-HHZCollectionViews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,6 +166,8 @@
 				6E322B771F2B0C4200FA16BB /* HHZCircleAlphaView.m */,
 				6E322B781F2B0C4200FA16BB /* HHZCollectionViewCellModel1.h */,
 				6E322B791F2B0C4200FA16BB /* HHZCollectionViewCellModel1.m */,
+				6E322B8C1F2B1BC000FA16BB /* HHZCircleTool.h */,
+				6E322B8D1F2B1BC000FA16BB /* HHZCircleTool.m */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E322B8E1F2B1BC000FA16BB /* HHZCircleTool.m in Sources */,
 				6E322B7C1F2B0C4200FA16BB /* HHZUnusedReusableView.m in Sources */,
 				6E322B221F2B066500FA16BB /* ViewController.m in Sources */,
 				6E322B7E1F2B0C4200FA16BB /* HHZCommonCollectionViewCell.m in Sources */,
