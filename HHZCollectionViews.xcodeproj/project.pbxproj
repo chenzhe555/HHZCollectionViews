@@ -13,14 +13,14 @@
 		6E322B251F2B066500FA16BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E322B231F2B066500FA16BB /* Main.storyboard */; };
 		6E322B271F2B066500FA16BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E322B261F2B066500FA16BB /* Assets.xcassets */; };
 		6E322B2A1F2B066500FA16BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E322B281F2B066500FA16BB /* LaunchScreen.storyboard */; };
-		6E322B441F2B06BD00FA16BB /* HHZChooseUnusedCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B331F2B06BD00FA16BB /* HHZChooseUnusedCV.m */; };
-		6E322B451F2B06BD00FA16BB /* HHZUnusedCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B351F2B06BD00FA16BB /* HHZUnusedCVCell.m */; };
-		6E322B461F2B06BD00FA16BB /* HHZUnusedReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B371F2B06BD00FA16BB /* HHZUnusedReusableView.m */; };
-		6E322B471F2B06BD00FA16BB /* HHZCommonCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B3A1F2B06BD00FA16BB /* HHZCommonCollectionView.m */; };
-		6E322B481F2B06BD00FA16BB /* HHZCommonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B3C1F2B06BD00FA16BB /* HHZCommonCollectionViewCell.m */; };
-		6E322B491F2B06BD00FA16BB /* HHZBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B3F1F2B06BD00FA16BB /* HHZBaseCollectionView.m */; };
-		6E322B4A1F2B06BD00FA16BB /* HHZCircleAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B411F2B06BD00FA16BB /* HHZCircleAlphaView.m */; };
-		6E322B4B1F2B06BD00FA16BB /* HHZCollectionViewCellModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B431F2B06BD00FA16BB /* HHZCollectionViewCellModel1.m */; };
+		6E322B7A1F2B0C4200FA16BB /* HHZChooseUnusedCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B691F2B0C4200FA16BB /* HHZChooseUnusedCV.m */; };
+		6E322B7B1F2B0C4200FA16BB /* HHZUnusedCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B6B1F2B0C4200FA16BB /* HHZUnusedCVCell.m */; };
+		6E322B7C1F2B0C4200FA16BB /* HHZUnusedReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B6D1F2B0C4200FA16BB /* HHZUnusedReusableView.m */; };
+		6E322B7D1F2B0C4200FA16BB /* HHZCommonCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B701F2B0C4200FA16BB /* HHZCommonCollectionView.m */; };
+		6E322B7E1F2B0C4200FA16BB /* HHZCommonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B721F2B0C4200FA16BB /* HHZCommonCollectionViewCell.m */; };
+		6E322B7F1F2B0C4200FA16BB /* HHZBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B751F2B0C4200FA16BB /* HHZBaseCollectionView.m */; };
+		6E322B801F2B0C4200FA16BB /* HHZCircleAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B771F2B0C4200FA16BB /* HHZCircleAlphaView.m */; };
+		6E322B811F2B0C4200FA16BB /* HHZCollectionViewCellModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B791F2B0C4200FA16BB /* HHZCollectionViewCellModel1.m */; };
 		7B33B98F4B4AD07A38073F2C /* libPods-HHZCollectionViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7768B3AB3B793CBC3E81484C /* libPods-HHZCollectionViews.a */; };
 /* End PBXBuildFile section */
 
@@ -36,22 +36,22 @@
 		6E322B261F2B066500FA16BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E322B291F2B066500FA16BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E322B2B1F2B066500FA16BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E322B321F2B06BD00FA16BB /* HHZChooseUnusedCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZChooseUnusedCV.h; sourceTree = "<group>"; };
-		6E322B331F2B06BD00FA16BB /* HHZChooseUnusedCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZChooseUnusedCV.m; sourceTree = "<group>"; };
-		6E322B341F2B06BD00FA16BB /* HHZUnusedCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUnusedCVCell.h; sourceTree = "<group>"; };
-		6E322B351F2B06BD00FA16BB /* HHZUnusedCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZUnusedCVCell.m; sourceTree = "<group>"; };
-		6E322B361F2B06BD00FA16BB /* HHZUnusedReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUnusedReusableView.h; sourceTree = "<group>"; };
-		6E322B371F2B06BD00FA16BB /* HHZUnusedReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZUnusedReusableView.m; sourceTree = "<group>"; };
-		6E322B391F2B06BD00FA16BB /* HHZCommonCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCommonCollectionView.h; sourceTree = "<group>"; };
-		6E322B3A1F2B06BD00FA16BB /* HHZCommonCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCommonCollectionView.m; sourceTree = "<group>"; };
-		6E322B3B1F2B06BD00FA16BB /* HHZCommonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCommonCollectionViewCell.h; sourceTree = "<group>"; };
-		6E322B3C1F2B06BD00FA16BB /* HHZCommonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCommonCollectionViewCell.m; sourceTree = "<group>"; };
-		6E322B3E1F2B06BD00FA16BB /* HHZBaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZBaseCollectionView.h; sourceTree = "<group>"; };
-		6E322B3F1F2B06BD00FA16BB /* HHZBaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZBaseCollectionView.m; sourceTree = "<group>"; };
-		6E322B401F2B06BD00FA16BB /* HHZCircleAlphaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCircleAlphaView.h; sourceTree = "<group>"; };
-		6E322B411F2B06BD00FA16BB /* HHZCircleAlphaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCircleAlphaView.m; sourceTree = "<group>"; };
-		6E322B421F2B06BD00FA16BB /* HHZCollectionViewCellModel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCollectionViewCellModel1.h; sourceTree = "<group>"; };
-		6E322B431F2B06BD00FA16BB /* HHZCollectionViewCellModel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCollectionViewCellModel1.m; sourceTree = "<group>"; };
+		6E322B681F2B0C4200FA16BB /* HHZChooseUnusedCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZChooseUnusedCV.h; sourceTree = "<group>"; };
+		6E322B691F2B0C4200FA16BB /* HHZChooseUnusedCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZChooseUnusedCV.m; sourceTree = "<group>"; };
+		6E322B6A1F2B0C4200FA16BB /* HHZUnusedCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUnusedCVCell.h; sourceTree = "<group>"; };
+		6E322B6B1F2B0C4200FA16BB /* HHZUnusedCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZUnusedCVCell.m; sourceTree = "<group>"; };
+		6E322B6C1F2B0C4200FA16BB /* HHZUnusedReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUnusedReusableView.h; sourceTree = "<group>"; };
+		6E322B6D1F2B0C4200FA16BB /* HHZUnusedReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZUnusedReusableView.m; sourceTree = "<group>"; };
+		6E322B6F1F2B0C4200FA16BB /* HHZCommonCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCommonCollectionView.h; sourceTree = "<group>"; };
+		6E322B701F2B0C4200FA16BB /* HHZCommonCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCommonCollectionView.m; sourceTree = "<group>"; };
+		6E322B711F2B0C4200FA16BB /* HHZCommonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCommonCollectionViewCell.h; sourceTree = "<group>"; };
+		6E322B721F2B0C4200FA16BB /* HHZCommonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCommonCollectionViewCell.m; sourceTree = "<group>"; };
+		6E322B741F2B0C4200FA16BB /* HHZBaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZBaseCollectionView.h; sourceTree = "<group>"; };
+		6E322B751F2B0C4200FA16BB /* HHZBaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZBaseCollectionView.m; sourceTree = "<group>"; };
+		6E322B761F2B0C4200FA16BB /* HHZCircleAlphaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCircleAlphaView.h; sourceTree = "<group>"; };
+		6E322B771F2B0C4200FA16BB /* HHZCircleAlphaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCircleAlphaView.m; sourceTree = "<group>"; };
+		6E322B781F2B0C4200FA16BB /* HHZCollectionViewCellModel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCollectionViewCellModel1.h; sourceTree = "<group>"; };
+		6E322B791F2B0C4200FA16BB /* HHZCollectionViewCellModel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCollectionViewCellModel1.m; sourceTree = "<group>"; };
 		7768B3AB3B793CBC3E81484C /* libPods-HHZCollectionViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZCollectionViews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1077F2FB258DFD3D48D7663 /* Pods-HHZCollectionViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZCollectionViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZCollectionViews/Pods-HHZCollectionViews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,9 +106,9 @@
 		6E322B191F2B066400FA16BB /* HHZCollectionViews */ = {
 			isa = PBXGroup;
 			children = (
-				6E322B311F2B06BD00FA16BB /* chooseUnused */,
-				6E322B381F2B06BD00FA16BB /* common */,
-				6E322B3D1F2B06BD00FA16BB /* utils */,
+				6E322B671F2B0C4200FA16BB /* chooseUnused */,
+				6E322B6E1F2B0C4200FA16BB /* common */,
+				6E322B731F2B0C4200FA16BB /* utils */,
 				6E322B1D1F2B066400FA16BB /* AppDelegate.h */,
 				6E322B1E1F2B066400FA16BB /* AppDelegate.m */,
 				6E322B201F2B066500FA16BB /* ViewController.h */,
@@ -130,39 +130,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6E322B311F2B06BD00FA16BB /* chooseUnused */ = {
+		6E322B671F2B0C4200FA16BB /* chooseUnused */ = {
 			isa = PBXGroup;
 			children = (
-				6E322B321F2B06BD00FA16BB /* HHZChooseUnusedCV.h */,
-				6E322B331F2B06BD00FA16BB /* HHZChooseUnusedCV.m */,
-				6E322B341F2B06BD00FA16BB /* HHZUnusedCVCell.h */,
-				6E322B351F2B06BD00FA16BB /* HHZUnusedCVCell.m */,
-				6E322B361F2B06BD00FA16BB /* HHZUnusedReusableView.h */,
-				6E322B371F2B06BD00FA16BB /* HHZUnusedReusableView.m */,
+				6E322B681F2B0C4200FA16BB /* HHZChooseUnusedCV.h */,
+				6E322B691F2B0C4200FA16BB /* HHZChooseUnusedCV.m */,
+				6E322B6A1F2B0C4200FA16BB /* HHZUnusedCVCell.h */,
+				6E322B6B1F2B0C4200FA16BB /* HHZUnusedCVCell.m */,
+				6E322B6C1F2B0C4200FA16BB /* HHZUnusedReusableView.h */,
+				6E322B6D1F2B0C4200FA16BB /* HHZUnusedReusableView.m */,
 			);
 			path = chooseUnused;
 			sourceTree = "<group>";
 		};
-		6E322B381F2B06BD00FA16BB /* common */ = {
+		6E322B6E1F2B0C4200FA16BB /* common */ = {
 			isa = PBXGroup;
 			children = (
-				6E322B391F2B06BD00FA16BB /* HHZCommonCollectionView.h */,
-				6E322B3A1F2B06BD00FA16BB /* HHZCommonCollectionView.m */,
-				6E322B3B1F2B06BD00FA16BB /* HHZCommonCollectionViewCell.h */,
-				6E322B3C1F2B06BD00FA16BB /* HHZCommonCollectionViewCell.m */,
+				6E322B6F1F2B0C4200FA16BB /* HHZCommonCollectionView.h */,
+				6E322B701F2B0C4200FA16BB /* HHZCommonCollectionView.m */,
+				6E322B711F2B0C4200FA16BB /* HHZCommonCollectionViewCell.h */,
+				6E322B721F2B0C4200FA16BB /* HHZCommonCollectionViewCell.m */,
 			);
 			path = common;
 			sourceTree = "<group>";
 		};
-		6E322B3D1F2B06BD00FA16BB /* utils */ = {
+		6E322B731F2B0C4200FA16BB /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				6E322B3E1F2B06BD00FA16BB /* HHZBaseCollectionView.h */,
-				6E322B3F1F2B06BD00FA16BB /* HHZBaseCollectionView.m */,
-				6E322B401F2B06BD00FA16BB /* HHZCircleAlphaView.h */,
-				6E322B411F2B06BD00FA16BB /* HHZCircleAlphaView.m */,
-				6E322B421F2B06BD00FA16BB /* HHZCollectionViewCellModel1.h */,
-				6E322B431F2B06BD00FA16BB /* HHZCollectionViewCellModel1.m */,
+				6E322B741F2B0C4200FA16BB /* HHZBaseCollectionView.h */,
+				6E322B751F2B0C4200FA16BB /* HHZBaseCollectionView.m */,
+				6E322B761F2B0C4200FA16BB /* HHZCircleAlphaView.h */,
+				6E322B771F2B0C4200FA16BB /* HHZCircleAlphaView.m */,
+				6E322B781F2B0C4200FA16BB /* HHZCollectionViewCellModel1.h */,
+				6E322B791F2B0C4200FA16BB /* HHZCollectionViewCellModel1.m */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -292,17 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E322B461F2B06BD00FA16BB /* HHZUnusedReusableView.m in Sources */,
+				6E322B7C1F2B0C4200FA16BB /* HHZUnusedReusableView.m in Sources */,
 				6E322B221F2B066500FA16BB /* ViewController.m in Sources */,
-				6E322B481F2B06BD00FA16BB /* HHZCommonCollectionViewCell.m in Sources */,
+				6E322B7E1F2B0C4200FA16BB /* HHZCommonCollectionViewCell.m in Sources */,
 				6E322B1F1F2B066500FA16BB /* AppDelegate.m in Sources */,
-				6E322B441F2B06BD00FA16BB /* HHZChooseUnusedCV.m in Sources */,
-				6E322B4B1F2B06BD00FA16BB /* HHZCollectionViewCellModel1.m in Sources */,
-				6E322B471F2B06BD00FA16BB /* HHZCommonCollectionView.m in Sources */,
-				6E322B4A1F2B06BD00FA16BB /* HHZCircleAlphaView.m in Sources */,
+				6E322B7A1F2B0C4200FA16BB /* HHZChooseUnusedCV.m in Sources */,
+				6E322B811F2B0C4200FA16BB /* HHZCollectionViewCellModel1.m in Sources */,
+				6E322B7D1F2B0C4200FA16BB /* HHZCommonCollectionView.m in Sources */,
+				6E322B801F2B0C4200FA16BB /* HHZCircleAlphaView.m in Sources */,
 				6E322B1C1F2B066400FA16BB /* main.m in Sources */,
-				6E322B491F2B06BD00FA16BB /* HHZBaseCollectionView.m in Sources */,
-				6E322B451F2B06BD00FA16BB /* HHZUnusedCVCell.m in Sources */,
+				6E322B7F1F2B0C4200FA16BB /* HHZBaseCollectionView.m in Sources */,
+				6E322B7B1F2B0C4200FA16BB /* HHZUnusedCVCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +425,11 @@
 			baseConfigurationReference = E1077F2FB258DFD3D48D7663 /* Pods-HHZCollectionViews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"${SRCROOT}/",
+				);
 				INFOPLIST_FILE = HHZCollectionViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZCollectionViews;
@@ -437,6 +442,11 @@
 			baseConfigurationReference = 5E68C62538197245DBFD7FD2 /* Pods-HHZCollectionViews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"${SRCROOT}/",
+				);
 				INFOPLIST_FILE = HHZCollectionViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZCollectionViews;
