@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHZCollectionViews"
-  s.version      = "0.0.1"
+  s.version      = "0.0.1.1"
   s.summary      = "HHZCollectionViews"
 
   # This description is used to generate tags and improve search results.
@@ -131,7 +131,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+   s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
