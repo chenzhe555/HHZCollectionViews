@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E322B1C1F2B066400FA16BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B1B1F2B066400FA16BB /* main.m */; };
+		6E322B1F1F2B066500FA16BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B1E1F2B066400FA16BB /* AppDelegate.m */; };
+		6E322B221F2B066500FA16BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B211F2B066500FA16BB /* ViewController.m */; };
+		6E322B251F2B066500FA16BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E322B231F2B066500FA16BB /* Main.storyboard */; };
+		6E322B271F2B066500FA16BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E322B261F2B066500FA16BB /* Assets.xcassets */; };
+		6E322B2A1F2B066500FA16BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E322B281F2B066500FA16BB /* LaunchScreen.storyboard */; };
+		6E322B441F2B06BD00FA16BB /* HHZChooseUnusedCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B331F2B06BD00FA16BB /* HHZChooseUnusedCV.m */; };
+		6E322B451F2B06BD00FA16BB /* HHZUnusedCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B351F2B06BD00FA16BB /* HHZUnusedCVCell.m */; };
+		6E322B461F2B06BD00FA16BB /* HHZUnusedReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B371F2B06BD00FA16BB /* HHZUnusedReusableView.m */; };
+		6E322B471F2B06BD00FA16BB /* HHZCommonCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B3A1F2B06BD00FA16BB /* HHZCommonCollectionView.m */; };
+		6E322B481F2B06BD00FA16BB /* HHZCommonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B3C1F2B06BD00FA16BB /* HHZCommonCollectionViewCell.m */; };
+		6E322B491F2B06BD00FA16BB /* HHZBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B3F1F2B06BD00FA16BB /* HHZBaseCollectionView.m */; };
+		6E322B4A1F2B06BD00FA16BB /* HHZCircleAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B411F2B06BD00FA16BB /* HHZCircleAlphaView.m */; };
+		6E322B4B1F2B06BD00FA16BB /* HHZCollectionViewCellModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E322B431F2B06BD00FA16BB /* HHZCollectionViewCellModel1.m */; };
+		7B33B98F4B4AD07A38073F2C /* libPods-HHZCollectionViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7768B3AB3B793CBC3E81484C /* libPods-HHZCollectionViews.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E68C62538197245DBFD7FD2 /* Pods-HHZCollectionViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZCollectionViews.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHZCollectionViews/Pods-HHZCollectionViews.release.xcconfig"; sourceTree = "<group>"; };
+		6E322B171F2B066400FA16BB /* HHZCollectionViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHZCollectionViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E322B1B1F2B066400FA16BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E322B1D1F2B066400FA16BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E322B1E1F2B066400FA16BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E322B201F2B066500FA16BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E322B211F2B066500FA16BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E322B241F2B066500FA16BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E322B261F2B066500FA16BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E322B291F2B066500FA16BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E322B2B1F2B066500FA16BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E322B321F2B06BD00FA16BB /* HHZChooseUnusedCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZChooseUnusedCV.h; sourceTree = "<group>"; };
+		6E322B331F2B06BD00FA16BB /* HHZChooseUnusedCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZChooseUnusedCV.m; sourceTree = "<group>"; };
+		6E322B341F2B06BD00FA16BB /* HHZUnusedCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUnusedCVCell.h; sourceTree = "<group>"; };
+		6E322B351F2B06BD00FA16BB /* HHZUnusedCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZUnusedCVCell.m; sourceTree = "<group>"; };
+		6E322B361F2B06BD00FA16BB /* HHZUnusedReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUnusedReusableView.h; sourceTree = "<group>"; };
+		6E322B371F2B06BD00FA16BB /* HHZUnusedReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZUnusedReusableView.m; sourceTree = "<group>"; };
+		6E322B391F2B06BD00FA16BB /* HHZCommonCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCommonCollectionView.h; sourceTree = "<group>"; };
+		6E322B3A1F2B06BD00FA16BB /* HHZCommonCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCommonCollectionView.m; sourceTree = "<group>"; };
+		6E322B3B1F2B06BD00FA16BB /* HHZCommonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCommonCollectionViewCell.h; sourceTree = "<group>"; };
+		6E322B3C1F2B06BD00FA16BB /* HHZCommonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCommonCollectionViewCell.m; sourceTree = "<group>"; };
+		6E322B3E1F2B06BD00FA16BB /* HHZBaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZBaseCollectionView.h; sourceTree = "<group>"; };
+		6E322B3F1F2B06BD00FA16BB /* HHZBaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZBaseCollectionView.m; sourceTree = "<group>"; };
+		6E322B401F2B06BD00FA16BB /* HHZCircleAlphaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCircleAlphaView.h; sourceTree = "<group>"; };
+		6E322B411F2B06BD00FA16BB /* HHZCircleAlphaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCircleAlphaView.m; sourceTree = "<group>"; };
+		6E322B421F2B06BD00FA16BB /* HHZCollectionViewCellModel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCollectionViewCellModel1.h; sourceTree = "<group>"; };
+		6E322B431F2B06BD00FA16BB /* HHZCollectionViewCellModel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCollectionViewCellModel1.m; sourceTree = "<group>"; };
+		7768B3AB3B793CBC3E81484C /* libPods-HHZCollectionViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZCollectionViews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1077F2FB258DFD3D48D7663 /* Pods-HHZCollectionViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZCollectionViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZCollectionViews/Pods-HHZCollectionViews.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E322B141F2B066400FA16BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B33B98F4B4AD07A38073F2C /* libPods-HHZCollectionViews.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC1929E888E05AE5BDCC773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7768B3AB3B793CBC3E81484C /* libPods-HHZCollectionViews.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A86182D7F7A224BB7BF0D1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1077F2FB258DFD3D48D7663 /* Pods-HHZCollectionViews.debug.xcconfig */,
+				5E68C62538197245DBFD7FD2 /* Pods-HHZCollectionViews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E322B0E1F2B066400FA16BB = {
+			isa = PBXGroup;
+			children = (
+				6E322B191F2B066400FA16BB /* HHZCollectionViews */,
+				6E322B181F2B066400FA16BB /* Products */,
+				5A86182D7F7A224BB7BF0D1E /* Pods */,
+				1AC1929E888E05AE5BDCC773 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E322B181F2B066400FA16BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E322B171F2B066400FA16BB /* HHZCollectionViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E322B191F2B066400FA16BB /* HHZCollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				6E322B311F2B06BD00FA16BB /* chooseUnused */,
+				6E322B381F2B06BD00FA16BB /* common */,
+				6E322B3D1F2B06BD00FA16BB /* utils */,
+				6E322B1D1F2B066400FA16BB /* AppDelegate.h */,
+				6E322B1E1F2B066400FA16BB /* AppDelegate.m */,
+				6E322B201F2B066500FA16BB /* ViewController.h */,
+				6E322B211F2B066500FA16BB /* ViewController.m */,
+				6E322B231F2B066500FA16BB /* Main.storyboard */,
+				6E322B261F2B066500FA16BB /* Assets.xcassets */,
+				6E322B281F2B066500FA16BB /* LaunchScreen.storyboard */,
+				6E322B2B1F2B066500FA16BB /* Info.plist */,
+				6E322B1A1F2B066400FA16BB /* Supporting Files */,
+			);
+			path = HHZCollectionViews;
+			sourceTree = "<group>";
+		};
+		6E322B1A1F2B066400FA16BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E322B1B1F2B066400FA16BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E322B311F2B06BD00FA16BB /* chooseUnused */ = {
+			isa = PBXGroup;
+			children = (
+				6E322B321F2B06BD00FA16BB /* HHZChooseUnusedCV.h */,
+				6E322B331F2B06BD00FA16BB /* HHZChooseUnusedCV.m */,
+				6E322B341F2B06BD00FA16BB /* HHZUnusedCVCell.h */,
+				6E322B351F2B06BD00FA16BB /* HHZUnusedCVCell.m */,
+				6E322B361F2B06BD00FA16BB /* HHZUnusedReusableView.h */,
+				6E322B371F2B06BD00FA16BB /* HHZUnusedReusableView.m */,
+			);
+			path = chooseUnused;
+			sourceTree = "<group>";
+		};
+		6E322B381F2B06BD00FA16BB /* common */ = {
+			isa = PBXGroup;
+			children = (
+				6E322B391F2B06BD00FA16BB /* HHZCommonCollectionView.h */,
+				6E322B3A1F2B06BD00FA16BB /* HHZCommonCollectionView.m */,
+				6E322B3B1F2B06BD00FA16BB /* HHZCommonCollectionViewCell.h */,
+				6E322B3C1F2B06BD00FA16BB /* HHZCommonCollectionViewCell.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		6E322B3D1F2B06BD00FA16BB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				6E322B3E1F2B06BD00FA16BB /* HHZBaseCollectionView.h */,
+				6E322B3F1F2B06BD00FA16BB /* HHZBaseCollectionView.m */,
+				6E322B401F2B06BD00FA16BB /* HHZCircleAlphaView.h */,
+				6E322B411F2B06BD00FA16BB /* HHZCircleAlphaView.m */,
+				6E322B421F2B06BD00FA16BB /* HHZCollectionViewCellModel1.h */,
+				6E322B431F2B06BD00FA16BB /* HHZCollectionViewCellModel1.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E322B161F2B066400FA16BB /* HHZCollectionViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E322B2E1F2B066500FA16BB /* Build configuration list for PBXNativeTarget "HHZCollectionViews" */;
+			buildPhases = (
+				E7959EE0246D5F8121BE9487 /* [CP] Check Pods Manifest.lock */,
+				6E322B131F2B066400FA16BB /* Sources */,
+				6E322B141F2B066400FA16BB /* Frameworks */,
+				6E322B151F2B066400FA16BB /* Resources */,
+				F20495436B679CCC4E1C9FBD /* [CP] Embed Pods Frameworks */,
+				8EB85C63092F453FDF2E68B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHZCollectionViews;
+			productName = HHZCollectionViews;
+			productReference = 6E322B171F2B066400FA16BB /* HHZCollectionViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E322B0F1F2B066400FA16BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈哲是个好孩子";
+				TargetAttributes = {
+					6E322B161F2B066400FA16BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6E322B121F2B066400FA16BB /* Build configuration list for PBXProject "HHZCollectionViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E322B0E1F2B066400FA16BB;
+			productRefGroup = 6E322B181F2B066400FA16BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E322B161F2B066400FA16BB /* HHZCollectionViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E322B151F2B066400FA16BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E322B2A1F2B066500FA16BB /* LaunchScreen.storyboard in Resources */,
+				6E322B271F2B066500FA16BB /* Assets.xcassets in Resources */,
+				6E322B251F2B066500FA16BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EB85C63092F453FDF2E68B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHZCollectionViews/Pods-HHZCollectionViews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7959EE0246D5F8121BE9487 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HHZCollectionViews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F20495436B679CCC4E1C9FBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHZCollectionViews/Pods-HHZCollectionViews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E322B131F2B066400FA16BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E322B461F2B06BD00FA16BB /* HHZUnusedReusableView.m in Sources */,
+				6E322B221F2B066500FA16BB /* ViewController.m in Sources */,
+				6E322B481F2B06BD00FA16BB /* HHZCommonCollectionViewCell.m in Sources */,
+				6E322B1F1F2B066500FA16BB /* AppDelegate.m in Sources */,
+				6E322B441F2B06BD00FA16BB /* HHZChooseUnusedCV.m in Sources */,
+				6E322B4B1F2B06BD00FA16BB /* HHZCollectionViewCellModel1.m in Sources */,
+				6E322B471F2B06BD00FA16BB /* HHZCommonCollectionView.m in Sources */,
+				6E322B4A1F2B06BD00FA16BB /* HHZCircleAlphaView.m in Sources */,
+				6E322B1C1F2B066400FA16BB /* main.m in Sources */,
+				6E322B491F2B06BD00FA16BB /* HHZBaseCollectionView.m in Sources */,
+				6E322B451F2B06BD00FA16BB /* HHZUnusedCVCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E322B231F2B066500FA16BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E322B241F2B066500FA16BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E322B281F2B066500FA16BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E322B291F2B066500FA16BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E322B2C1F2B066500FA16BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E322B2D1F2B066500FA16BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E322B2F1F2B066500FA16BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1077F2FB258DFD3D48D7663 /* Pods-HHZCollectionViews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HHZCollectionViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZCollectionViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E322B301F2B066500FA16BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E68C62538197245DBFD7FD2 /* Pods-HHZCollectionViews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HHZCollectionViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZCollectionViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E322B121F2B066400FA16BB /* Build configuration list for PBXProject "HHZCollectionViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E322B2C1F2B066500FA16BB /* Debug */,
+				6E322B2D1F2B066500FA16BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E322B2E1F2B066500FA16BB /* Build configuration list for PBXNativeTarget "HHZCollectionViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E322B2F1F2B066500FA16BB /* Debug */,
+				6E322B301F2B066500FA16BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E322B0F1F2B066400FA16BB /* Project object */;
+}
