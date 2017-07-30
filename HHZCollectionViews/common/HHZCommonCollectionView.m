@@ -37,7 +37,7 @@
     CGFloat itemWidth = (self.bounds.size.width - (self.kColumnCount + 1) * self.itemSpaceX)/self.kColumnCount;
     self.dragingCell = [[HHZCommonCollectionViewCell alloc] initWithFrame:CGRectMake(0, 0, itemWidth, itemWidth)];
     self.dragingCell.hidden = YES;
-    [self addSubview:self.dragingCell];
+    [self.contentCollectionView addSubview:self.dragingCell];
 }
 
 -(void)createCollectionView
