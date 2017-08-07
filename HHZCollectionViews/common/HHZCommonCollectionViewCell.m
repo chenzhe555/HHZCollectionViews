@@ -76,9 +76,16 @@
     }
     else
     {
-        UIImage * img = [UIImage imageNamed:self.model.image];
-        img = [HHZCircleTool getImageRadius:img.size.width/2 andImage:img];
-        self.imgView.image = img;
+        if (self.model.imageIsCircle)
+        {
+            UIImage * img = [UIImage imageNamed:self.model.image];
+            img = [HHZCircleTool getImageRadius:img.size.width/2 andImage:img];
+            self.imgView.image = img;
+        }
+        else
+        {
+            self.imgView.image = [UIImage imageNamed:self.model.image];
+        }
     }
 }
 

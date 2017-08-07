@@ -11,9 +11,22 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HHZCollectionViewCellModel1 : NSObject
+/**
+ *  图片名称或者地址
+ */
 @property (nonatomic, copy) NSString * image;
+/**
+ *  底部文字信息
+ */
 @property (nonatomic, copy) NSString * title;
+/**
+ *  是否是来自于网络的图片
+ */
 @property (nonatomic, assign) BOOL isUrl;
+/**
+ *  图片是否为圆角
+ */
+@property (nonatomic, assign) BOOL imageIsCircle;
 /**
  *  （图片加文本）实例化Model
  */
