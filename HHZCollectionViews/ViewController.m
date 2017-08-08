@@ -43,8 +43,8 @@
     HHZCollectionViewCellModel1 * model9 = [HHZCollectionViewCellModel1 generateModelTitle:@"通知广告" Image:@"9.jpg" isUrl:NO];
     
     NSArray * arr1 = @[model1,model2,model3,model4,model5,model6,model7,model8,model9];
-    NSArray * arr2 = @[model1,model2,model3,model4,model5];
-    NSArray * arr3 = @[model6,model7,model8,model9];
+//    NSArray * arr2 = @[model1,model2,model3,model4,model5];
+//    NSArray * arr3 = @[model6,model7,model8,model9];
     
     [self.chooseCV configInfoArr:arr1];
     [self.chooseCV initializeViewsDelegate:self];
