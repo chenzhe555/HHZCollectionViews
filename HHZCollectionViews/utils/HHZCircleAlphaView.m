@@ -35,8 +35,6 @@
     }
     
     [self.layer addSublayer:fillLayer];
-    
-    
 }
 
 - (instancetype)init
@@ -45,7 +43,6 @@
     if (self) {
         self.backgroundColor = [UIColor clearColor];
         self.layer.borderColor = [UIColor clearColor].CGColor;
-        
     }
     return self;
 }
