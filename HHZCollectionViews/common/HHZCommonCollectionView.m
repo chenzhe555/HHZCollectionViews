@@ -51,6 +51,16 @@
     [self.contentCollectionView addGestureRecognizer:gesture];
 }
 
+-(void)configInfoArray:(NSArray *)usedArr
+{
+    self.infoArray = [NSMutableArray arrayWithArray:usedArr];
+}
+
+-(NSArray *)gainInfoArray
+{
+    return self.infoArray;
+}
+
 
 #pragma mark 手势事件响应
 -(void)longPressHappen:(UILongPressGestureRecognizer *)gesture

@@ -15,9 +15,15 @@ NS_ASSUME_NONNULL_BEGIN
 @interface HHZCommonCollectionView : HHZBaseCollectionView
 /**
  *  配置CollectionView的数据数组
- *  HHZCommonCollectionViewCellModel的数组
+ *
  */
--(void)configInfoArr:(NSArray *)infoArr;
+-(void)configInfoArray:(NSArray *)usedArr;
+
+/**
+ *  获取CollectionView的数据数组
+ *
+ */
+-(NSArray *)gainInfoArray;
 @end
 
 NS_ASSUME_NONNULL_END

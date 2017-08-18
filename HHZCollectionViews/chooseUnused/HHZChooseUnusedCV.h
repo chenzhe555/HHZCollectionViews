@@ -21,8 +21,15 @@ NS_ASSUME_NONNULL_BEGIN
  *  
  */
 -(void)configUnUsedInfos:(NSArray *)unUsedArr;
-
+/**
+ *  获取CollectionView的正在使用的应用数据数组
+ *
+ */
 -(NSArray *)gainUsedArray;
+/**
+ *  获取CollectionView的未使用的应用数据数组
+ *
+ */
 -(NSArray *)gainUnUesdArray;
 @end
 
