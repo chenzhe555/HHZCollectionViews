@@ -7,6 +7,7 @@
 //
 
 #import "HHZUnusedCVCell.h"
+#import <HHZCategory/UIView+HHZCategory.h>
 #import "HHZCircleTool.h"
 
 #define kImageAndTextSpace 10
@@ -73,8 +74,11 @@
     else
     {
         UIImage * img = [UIImage imageNamed:self.model.image];
-        img = [HHZCircleTool getImageRadius:img.size.width/2 andImage:img];
+        if (self.model.imageIsCircle) img = [HHZCircleTool getImageRadius:img.size.width/2 andImage:img];
+
         self.imgView.image = img;
+        self.imgView.frame = CGRectMake((self.width - img.size.width)/2, (self.height - img.size.height - self.label.height - kImageAndTextSpace)/2, img.size.width, img.size.height);
+        self.label.frame = CGRectMake((self.width - self.label.width)/2, self.imgView.yPlushHeight + kImageAndTextSpace, self.label.width, self.label.height);
     }
 }
 

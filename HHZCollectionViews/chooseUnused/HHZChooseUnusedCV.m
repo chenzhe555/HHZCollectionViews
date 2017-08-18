@@ -62,7 +62,15 @@
     [self.contentCollectionView registerClass:[HHZUnusedReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"cellHeaderViewIndentifier"];
 }
 
+-(NSArray *)gainUsedArray
+{
+    return self.inUsedArray;
+}
 
+-(NSArray *)gainUnUesdArray
+{
+    return self.unUsedArray;
+}
 
 #pragma mark UICollectionView回调方法
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView

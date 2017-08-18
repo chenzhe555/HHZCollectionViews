@@ -8,7 +8,10 @@
 
 #import "HHZCommonCollectionViewCell.h"
 #import "HHZCollectionViewCellModel1.h"
+#import <HHZCategory/UIView+HHZCategory.h>
 #import "HHZCircleTool.h"
+
+#define kImageAndTextSpace 10
 
 @interface HHZCommonCollectionViewCell ()
 @property (nonatomic, strong) UIImageView * imgView;
@@ -76,16 +79,12 @@
     }
     else
     {
-        if (self.model.imageIsCircle)
-        {
-            UIImage * img = [UIImage imageNamed:self.model.image];
-            img = [HHZCircleTool getImageRadius:img.size.width/2 andImage:img];
-            self.imgView.image = img;
-        }
-        else
-        {
-            self.imgView.image = [UIImage imageNamed:self.model.image];
-        }
+        UIImage * img = [UIImage imageNamed:self.model.image];
+        if (self.model.imageIsCircle) img = [HHZCircleTool getImageRadius:img.size.width/2 andImage:img];
+        
+        self.imgView.image = img;
+        self.imgView.frame = CGRectMake((self.width - img.size.width)/2, (self.height - img.size.height - self.label.height - kImageAndTextSpace)/2, img.size.width, img.size.height);
+        self.label.frame = CGRectMake((self.width - self.label.width)/2, self.imgView.yPlushHeight + kImageAndTextSpace, self.label.width, self.label.height);
     }
 }
 
