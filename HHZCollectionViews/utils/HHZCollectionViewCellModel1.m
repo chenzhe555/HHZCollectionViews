@@ -7,8 +7,11 @@
 //
 
 #import "HHZCollectionViewCellModel1.h"
+#import <HHZCategory/NSObject+HHZCategory.h>
 
 @implementation HHZCollectionViewCellModel1
+HHZ_AutoCoding
+
 +(HHZCollectionViewCellModel1 *)generateModelTitle:(NSString *)title Image:(NSString *)image isUrl:(BOOL)isUrl
 {
     HHZCollectionViewCellModel1 * model = [[HHZCollectionViewCellModel1 alloc] init];

@@ -80,7 +80,7 @@
     HHZUnusedReusableView * headView = nil;
     if (indexPath.section == 0)
     {
-        headView = [HHZUnusedReusableView getReuseableView:collectionView indexPath:indexPath leftTitle:@"我的应用" rightTitle:@"点击删除应用"];
+        headView = [HHZUnusedReusableView getReuseableView:collectionView indexPath:indexPath leftTitle:@"我的应用" rightTitle:@"点击移除应用"];
     }
     else
     {

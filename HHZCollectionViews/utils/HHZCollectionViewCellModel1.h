@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HHZCollectionViewCellModel1 : NSObject
+@interface HHZCollectionViewCellModel1 : NSObject<NSCoding>
 /**
  *  图片名称或者地址
  */
