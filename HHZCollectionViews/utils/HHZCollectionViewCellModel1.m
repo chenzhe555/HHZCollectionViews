@@ -14,10 +14,16 @@ HHZ_AutoCoding
 
 +(HHZCollectionViewCellModel1 *)generateModelTitle:(NSString *)title Image:(NSString *)image isUrl:(BOOL)isUrl
 {
+    return [self generateModelTitle:title Image:image isUrl:isUrl sourceIdentifier:nil];
+}
+
++(HHZCollectionViewCellModel1 *)generateModelTitle:(NSString *)title Image:(NSString *)image isUrl:(BOOL)isUrl sourceIdentifier:(NSString *)sourceIdentifier
+{
     HHZCollectionViewCellModel1 * model = [[HHZCollectionViewCellModel1 alloc] init];
     model.title = title;
     model.image = image;
     model.isUrl = isUrl;
+    model.sourceIdentifier = sourceIdentifier;
     return model;
 }
 @end

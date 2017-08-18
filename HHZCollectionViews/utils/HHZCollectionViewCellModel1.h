@@ -28,9 +28,18 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) BOOL imageIsCircle;
 /**
+ *  Model的标志
+ */
+@property (nonatomic, copy) NSString * sourceIdentifier;
+/**
  *  （图片加文本）实例化Model
  */
 +(HHZCollectionViewCellModel1 *)generateModelTitle:(NSString *)title Image:(NSString *)image isUrl:(BOOL)isUrl;
+
+/**
+ *  （图片加文本）实例化Model
+ */
++(HHZCollectionViewCellModel1 *)generateModelTitle:(NSString *)title Image:(NSString *)image isUrl:(BOOL)isUrl sourceIdentifier:(NSString * _Nullable)sourceIdentifier;
 @end
 
 NS_ASSUME_NONNULL_END
